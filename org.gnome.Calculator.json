@@ -1,11 +1,11 @@
 {
     "app-id": "org.gnome.Calculator",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.26",
+    "runtime-version": "3.28",
     "branch": "stable",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-calculator",
-    "rename-icon": "accessories-calculator",
+    "rename-icon": "gnome-calculator",
     "finish-args": [
         /* X11 + XShm access */
         "--share=ipc", "--socket=x11",
@@ -51,55 +51,12 @@
             ]
         },
         {
-            "name": "icons",
-            "buildsystem": "simple",
-            "build-commands": [
-                    "install -Dm644 accessories-calculator-24.png /app/share/icons/hicolor/24x24/apps/accessories-calculator.png",
-                    "install -Dm644 accessories-calculator-32.png /app/share/icons/hicolor/32x32/apps/accessories-calculator.png",
-                    "install -Dm644 accessories-calculator-48.png /app/share/icons/hicolor/48x48/apps/accessories-calculator.png",
-                    "install -Dm644 accessories-calculator-64.png /app/share/icons/hicolor/64x64/apps/accessories-calculator.png",
-                    "install -Dm644 accessories-calculator-128.png /app/share/icons/hicolor/128x128/apps/accessories-calculator.png",
-                    "install -Dm644 accessories-calculator-256.png /app/share/icons/hicolor/256x256/apps/accessories-calculator.png",
-                    "install -Dm644 accessories-calculator-512.png /app/share/icons/hicolor/512x512/apps/accessories-calculator.png"
-            ],
-            "sources": [
-                {
-                    "type": "file",
-                    "path": "accessories-calculator-24.png"
-                },
-                {
-                    "type": "file",
-                    "path": "accessories-calculator-32.png"
-                },
-                {
-                    "type": "file",
-                    "path": "accessories-calculator-48.png"
-                },
-                {
-                    "type": "file",
-                    "path": "accessories-calculator-64.png"
-                },
-                {
-                    "type": "file",
-                    "path": "accessories-calculator-128.png"
-                },
-                {
-                    "type": "file",
-                    "path": "accessories-calculator-256.png"
-                },
-                {
-                    "type": "file",
-                    "path": "accessories-calculator-512.png"
-                }        
-            ]
-        },
-        {
             "name": "gnome-calculator",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-calculator/3.26/gnome-calculator-3.26.0.tar.xz",
-                    "sha256": "62215b37fcd73a6bbb106ebd0f25051c81ff0cf6ad84fd4a3ea176bceb5863c7"
+                    "url": "https://download.gnome.org/sources/gnome-calculator/3.28/gnome-calculator-3.28.0.tar.xz",
+                    "sha256": "76879e01360aadbebf4ace7f0b452823727ff7eadfb80011136597605cddcee2"
                 }
             ]
         }
