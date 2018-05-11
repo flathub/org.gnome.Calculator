@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Calculator",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.26",
+    "runtime-version": "3.28",
     "branch": "stable",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-calculator",
@@ -55,8 +55,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-calculator/3.28/gnome-calculator-3.28.0.tar.xz",
-                    "sha256": "76879e01360aadbebf4ace7f0b452823727ff7eadfb80011136597605cddcee2"
+                    "url": "https://download.gnome.org/sources/gnome-calculator/3.28/gnome-calculator-3.28.1.tar.xz",
+                    "sha256": "2cee9ef809cea1adbbcc8de65e05f0bb7ed8e78cd2c1a3a1105fba59d36df717"
                 }
             ]
         }
