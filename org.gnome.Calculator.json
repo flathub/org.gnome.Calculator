@@ -45,18 +45,19 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gtksourceview/3.24/gtksourceview-3.24.5.tar.xz",
-                    "sha256": "0246185fcc20c4734d01419a83f58f251a82e2a902fe60bb0335187fcf658181"
+                    "url": "https://download.gnome.org/sources/gtksourceview/3.24/gtksourceview-3.24.9.tar.xz",
+                    "sha256": "699d76a453e6a3d3331906346e3dbfa25f2cbc9ec090e46635e9c6bb595e07c2"
                 }
             ]
         },
         {
             "name": "gnome-calculator",
+            "buildsystem": "meson",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-calculator/3.28/gnome-calculator-3.28.2.tar.xz",
-                    "sha256": "bad41e322fc82f13f0fa0c773ad96802c272498adf8e2c8b8054549718cefa47"
+                    "url": "https://download.gnome.org/sources/gnome-calculator/3.30/gnome-calculator-3.30.0.tar.xz",
+                    "sha256": "add2a50dcc32a2d5872d0ecb2ad69d8bb74521671d20e00a8b0f0fd9b2983bb7"
                 }
             ]
         }
