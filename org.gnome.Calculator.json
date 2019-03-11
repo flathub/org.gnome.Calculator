@@ -5,7 +5,6 @@
     "branch": "stable",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-calculator",
-    "rename-icon": "gnome-calculator",
     "finish-args": [
         /* X11 + XShm access */
         "--share=ipc", "--socket=x11",
@@ -22,7 +21,7 @@
                 "/man", "/share/man", "/share/gtk-doc",
                 "/share/vala", "*.la", "*.a",
                 "/bin/gcalccmd",
-                "/lib/girepository-1.0", "/share/info", "/share/gtksourceview-3.0",
+                "/lib/girepository-1.0", "/share/info", "/share/gtksourceview-4",
                 "/share/doc", "/share/gir-1.0"
     ],
     "modules": [
