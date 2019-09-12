@@ -10,7 +10,8 @@
         /* Wayland access */
         "--socket=wayland",
         /* Needs to talk to the network to get currency data */
-        "--share=network"
+        "--share=network",
+        "--metadata=X-DConf=migrate-path=/org/gnome/calculator/"
     ],
     "cleanup": ["/include", "/lib/pkgconfig",
                 "/share/pkgconfig", "/share/aclocal",
