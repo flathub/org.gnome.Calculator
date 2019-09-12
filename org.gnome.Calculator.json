@@ -1,8 +1,7 @@
 {
     "app-id": "org.gnome.Calculator",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.32",
-    "branch": "stable",
+    "runtime-version": "3.34",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-calculator",
     "finish-args": [
@@ -11,10 +10,7 @@
         /* Wayland access */
         "--socket=wayland",
         /* Needs to talk to the network to get currency data */
-        "--share=network",
-        /* Needed for dconf to work */
-        "--filesystem=xdg-run/dconf", "--filesystem=~/.config/dconf:ro",
-        "--talk-name=ca.desrt.dconf", "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+        "--share=network"
     ],
     "cleanup": ["/include", "/lib/pkgconfig",
                 "/share/pkgconfig", "/share/aclocal",
@@ -50,11 +46,12 @@
         },
         {
             "name": "gtksourceview",
+            "buildsystem": "meson",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gtksourceview/4.3/gtksourceview-4.3.1.tar.xz",
-                    "sha256": "b8ef118786f4e5c1ee20b986ac3914c60064a11acdee73645be3adb3543a2a5d"
+                    "url": "https://download.gnome.org/sources/gtksourceview/4.4/gtksourceview-4.4.0.tar.xz",
+                    "sha256": "9ddb914aef70a29a66acd93b4f762d5681202e44094d2d6370e51c9e389e689a"
                 }
             ]
         },
@@ -64,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-calculator/3.32/gnome-calculator-3.32.2.tar.xz",
-                    "sha256": "815c2327f35a263b857aa918f6ce00c91897e7cc6546f8af4bda08c1f4b0f739"
+                    "url": "https://download.gnome.org/sources/gnome-calculator/3.34/gnome-calculator-3.34.0.tar.xz",
+                    "sha256": "6b90d2b1409c6048ddbef42e59ce54bcb7b49bc086339ab510f10ebf5a6bf23f"
                 }
             ]
         }
