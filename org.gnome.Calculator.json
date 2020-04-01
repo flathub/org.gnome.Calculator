@@ -6,7 +6,7 @@
     "command": "gnome-calculator",
     "finish-args": [
         /* X11 + XShm access */
-        "--share=ipc", "--socket=x11",
+        "--share=ipc", "--socket=fallback-x11",
         /* Wayland access */
         "--socket=wayland",
         /* Needs to talk to the network to get currency data */
@@ -27,8 +27,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnu.org/gnu/mpfr/mpfr-4.0.1.tar.xz",
-                    "sha256": "67874a60826303ee2fb6affc6dc0ddd3e749e9bfcb4c8655e3953d0458a6e16e"
+                    "url": "https://ftp.gnu.org/gnu/mpfr/mpfr-4.0.2.tar.xz",
+                    "sha256": "1d3be708604eae0e42d578ba93b390c2a145f17743a744d8f3f8c2ad5855a38a"
                 }
             ]
         },
