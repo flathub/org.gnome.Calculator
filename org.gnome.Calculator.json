@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Calculator",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.36",
+    "runtime-version": "3.38",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-calculator",
     "finish-args": [
@@ -27,8 +27,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnu.org/gnu/mpfr/mpfr-4.0.2.tar.xz",
-                    "sha256": "1d3be708604eae0e42d578ba93b390c2a145f17743a744d8f3f8c2ad5855a38a"
+                    "url": "https://ftp.gnu.org/gnu/mpfr/mpfr-4.1.0.tar.xz",
+                    "sha256": "0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f"
                 }
             ]
         },
@@ -51,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-calculator/3.36/gnome-calculator-3.36.0.tar.xz",
-                    "sha256": "a2e830f9c9856fad65dad1d6c0ae6abad0f0b496c9984ac005315c5cc4220db3"
+                    "url": "https://download.gnome.org/sources/gnome-calculator/3.38/gnome-calculator-3.38.0.tar.xz",
+                    "sha256": "902e23ff550692b02459e14d6ebba8b670663a9f4af0d98ee52fadea895b57fe"
                 }
             ]
         }
