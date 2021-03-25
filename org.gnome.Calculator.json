@@ -1,25 +1,33 @@
 {
     "app-id": "org.gnome.Calculator",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.38",
+    "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-calculator",
     "finish-args": [
-        /* X11 + XShm access */
-        "--share=ipc", "--socket=fallback-x11",
-        /* Wayland access */
+        "--share=ipc",
+        "--socket=fallback-x11",
         "--socket=wayland",
-        /* Needs to talk to the network to get currency data */
         "--share=network",
         "--metadata=X-DConf=migrate-path=/org/gnome/calculator/"
     ],
-    "cleanup": ["/include", "/lib/pkgconfig",
-                "/share/pkgconfig", "/share/aclocal",
-                "/man", "/share/man", "/share/gtk-doc",
-                "/share/vala", "*.la", "*.a",
-                "/bin/gcalccmd",
-                "/lib/girepository-1.0", "/share/info", "/share/gtksourceview-4",
-                "/share/doc", "/share/gir-1.0"
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/share/pkgconfig",
+        "/share/aclocal",
+        "/man",
+        "/share/man",
+        "/share/gtk-doc",
+        "/share/vala",
+        "*.la",
+        "*.a",
+        "/bin/gcalccmd",
+        "/lib/girepository-1.0",
+        "/share/info",
+        "/share/gtksourceview-4",
+        "/share/doc",
+        "/share/gir-1.0"
     ],
     "modules": [
         {
@@ -40,19 +48,26 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz",
-                    "sha256": "6985c538143c1208dcb1ac42cedad6ff52e267b47e5f970183a3e75125b43c2e"
+                    "url": "https://ftp.gnu.org/gnu/mpc/mpc-1.2.1.tar.gz",
+                    "sha256": "17503d2c395dfcf106b622dc142683c1199431d095367c6aacba6eec30340459"
                 }
             ]
         },
         {
             "name": "gnome-calculator",
             "buildsystem": "meson",
+            "config-opts" : [
+                "-Ddisable-introspection=true"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-calculator/3.38/gnome-calculator-3.38.0.tar.xz",
-                    "sha256": "902e23ff550692b02459e14d6ebba8b670663a9f4af0d98ee52fadea895b57fe"
+                    "url": "https://download.gnome.org/sources/gnome-calculator/40/gnome-calculator-40.0.tar.xz",
+                    "sha256": "f3a25988be1170eb9072d8bb3dc46192136fcb0be80182e17bb34618326c4de3"
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/gnome-calculator/fix-appdata-releases.patch"
                 }
             ]
         }
