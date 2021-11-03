@@ -1,8 +1,26 @@
 diff --git a/data/org.gnome.Calculator.appdata.xml.in b/data/org.gnome.Calculator.appdata.xml.in
-index 2a3b4f86..18f6edcc 100644
+index e981d537..5f318c72 100644
 --- a/data/org.gnome.Calculator.appdata.xml.in
 +++ b/data/org.gnome.Calculator.appdata.xml.in
-@@ -72,7 +72,7 @@
+@@ -82,7 +82,7 @@
+         </ul>
+       </description>
+     </release>
+-    <release version="41.rc" date="2021-09-04" type="development">
++    <release version="41~rc" date="2021-09-04" type="development">
+       <description>
+         <p>Overview of changes in gnome-calculator 41.rc</p>
+         <ul>
+@@ -90,7 +90,7 @@
+         </ul>
+       </description>
+     </release>
+-    <release version="41.alpha" date="2021-07-10" type="development">
++    <release version="41~alpha" date="2021-07-10" type="development">
+       <description>
+         <p>Overview of changes in gnome-calculator 41.alpha</p>
+         <ul>
+@@ -115,7 +115,7 @@
          </ul>
        </description>
      </release>
@@ -11,7 +29,7 @@ index 2a3b4f86..18f6edcc 100644
        <description>
          <p>Overview of changes in gnome-calculator 40.rc</p>
          <ul>
-@@ -90,7 +90,7 @@
+@@ -133,7 +133,7 @@
          </ul>
        </description>
      </release>  
@@ -20,7 +38,7 @@ index 2a3b4f86..18f6edcc 100644
        <description>
          <p>Overview of changes in gnome-calculator 40.beta</p>
          <ul>
-@@ -110,7 +110,7 @@
+@@ -153,7 +153,7 @@
          </ul>
        </description>
      </release>  
