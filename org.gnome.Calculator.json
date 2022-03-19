@@ -42,7 +42,7 @@
         },
         {
             "name": "mpc",
-            "config-opts" : [
+            "config-opts": [
                 "--with-mpfr=/app"
             ],
             "sources": [
@@ -56,14 +56,14 @@
         {
             "name": "gnome-calculator",
             "buildsystem": "meson",
-            "config-opts" : [
+            "config-opts": [
                 "-Ddisable-introspection=true"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-calculator/41/gnome-calculator-41.1.tar.xz",
-                    "sha256": "0267614afdb25d38b78411b42ebab7bc50c1b6340cc49bb68c0e432d7ddf8a34",
+                    "url": "https://download.gnome.org/sources/gnome-calculator/42/gnome-calculator-42.0.tar.xz",
+                    "sha256": "a535a14ebea58e691a4b5a085256aed060a2c3f07384ac3a3d01832332a27e4a",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnome-calculator"
