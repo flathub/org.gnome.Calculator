@@ -68,10 +68,6 @@
                         "type": "gnome",
                         "name": "gnome-calculator"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/gnome-calculator/fix-appdata-releases.patch"
                 }
             ]
         }
