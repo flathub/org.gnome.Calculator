@@ -5,6 +5,7 @@
     "sdk": "org.gnome.Sdk",
     "command": "gnome-calculator",
     "finish-args": [
+        "--device=dri",
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
@@ -25,7 +26,7 @@
         "/bin/gcalccmd",
         "/lib/girepository-1.0",
         "/share/info",
-        "/share/gtksourceview-4",
+        "/share/gtksourceview-5",
         "/share/doc",
         "/share/gir-1.0"
     ],
