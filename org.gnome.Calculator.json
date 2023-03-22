@@ -1,5 +1,5 @@
 {
-    "app-id": "org.gnome.Calculator",
+    "id": "org.gnome.Calculator",
     "runtime": "org.gnome.Platform",
     "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
