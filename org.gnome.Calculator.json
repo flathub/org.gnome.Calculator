@@ -58,6 +58,7 @@
             "name": "gnome-calculator",
             "buildsystem": "meson",
             "config-opts": [
+                "-Dgcalc=false",
                 "-Ddisable-introspection=true"
             ],
             "sources": [
