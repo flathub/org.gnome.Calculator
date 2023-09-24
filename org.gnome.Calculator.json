@@ -1,8 +1,15 @@
 {
     "id": "org.gnome.Calculator",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "45",
     "sdk": "org.gnome.Sdk",
+    "sdk-extensions": [
+        "org.freedesktop.Sdk.Extension.vala"
+    ],
+    "build-options": {
+        "prepend-path": "/usr/lib/sdk/vala/bin",
+        "prepend-ld-library-path": "/usr/lib/sdk/vala/lib"
+    },
     "command": "gnome-calculator",
     "finish-args": [
         "--device=dri",
@@ -36,8 +43,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnu.org/gnu/mpfr/mpfr-4.1.0.tar.xz",
-                    "sha256": "0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f"
+                    "url": "https://www.mpfr.org/mpfr-4.1.1/mpfr-4.1.1.tar.xz",
+                    "sha256": "ffd195bd567dbaffc3b98b23fd00aad0537680c9896171e44fe3ff79e28ac33d"
                 }
             ]
         },
@@ -49,8 +56,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnu.org/gnu/mpc/mpc-1.2.1.tar.gz",
-                    "sha256": "17503d2c395dfcf106b622dc142683c1199431d095367c6aacba6eec30340459"
+                    "url": "https://ftp.gnu.org/gnu/mpc/mpc-1.3.1.tar.gz",
+                    "sha256": "ab642492f5cf882b74aa0cb730cd410a81edcdbec895183ce930e706c1c759b8"
                 }
             ]
         },
@@ -64,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-calculator/44/gnome-calculator-44.0.tar.xz",
-                    "sha256": "14e763329f88309a7e152780d57361b543100e323906b34e0655fdc315b71043",
+                    "url": "https://download.gnome.org/sources/gnome-calculator/45/gnome-calculator-45.0.2.tar.xz",
+                    "sha256": "7dcbf32384897171cbe5483ec664d994e5e755e912ae1df911624f03c90867c2",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnome-calculator"
