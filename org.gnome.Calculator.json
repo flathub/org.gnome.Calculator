@@ -1,15 +1,8 @@
 {
     "id": "org.gnome.Calculator",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
-    "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.vala"
-    ],
-    "build-options": {
-        "prepend-path": "/usr/lib/sdk/vala/bin",
-        "prepend-ld-library-path": "/usr/lib/sdk/vala/lib"
-    },
     "command": "gnome-calculator",
     "finish-args": [
         "--device=dri",
