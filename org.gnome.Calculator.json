@@ -1,7 +1,7 @@
 {
     "id": "org.gnome.Calculator",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-calculator",
     "finish-args": [
@@ -74,12 +74,16 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-calculator/48/gnome-calculator-48.1.tar.xz",
-                    "sha256": "bc4bd41a9ba190f45cbee0d8c6752cdc5d28b0cef1c6bd0c01e2dae1f3c19162",
+                    "url": "https://download.gnome.org/sources/gnome-calculator/49/gnome-calculator-49.0.tar.xz",
+                    "sha256": "df44acbdec1043d04b52c74db288f713cfc0752c17bd67171b941d6d13ead049",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnome-calculator"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/0001-metainfo-Revert-screenshots-from-49.patch"
                 }
             ]
         }
