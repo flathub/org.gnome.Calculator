@@ -80,10 +80,6 @@
                         "type": "gnome",
                         "name": "gnome-calculator"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/0001-metainfo-Revert-screenshots-from-49.patch"
                 }
             ]
         }
