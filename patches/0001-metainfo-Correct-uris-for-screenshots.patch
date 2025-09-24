@@ -1,0 +1,53 @@
+From dadc6790de9048cf32d59768d14335d395b3d0ac Mon Sep 17 00:00:00 2001
+From: Maximiliano Sandoval <msandova@gnome.org>
+Date: Wed, 24 Sep 2025 22:20:08 +0200
+Subject: [PATCH] metainfo: Correct uris for screenshots
+
+See https://gitlab.gnome.org/Teams/Websites/static.gnome.org/-/merge_requests/40.
+
+Signed-off-by: Maximiliano Sandoval <msandova@gnome.org>
+---
+ data/org.gnome.Calculator.metainfo.xml.in | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/data/org.gnome.Calculator.metainfo.xml.in b/data/org.gnome.Calculator.metainfo.xml.in
+index 16c706fd..339ce581 100644
+--- a/data/org.gnome.Calculator.metainfo.xml.in
++++ b/data/org.gnome.Calculator.metainfo.xml.in
+@@ -41,27 +41,27 @@
+   <screenshots>
+     <screenshot type="default">
+       <caption>Basic Mode</caption>
+-      <image>https://static.gnome.org/appdata/gnome-49/calculator/basic-mode.png</image>
++      <image>https://static.gnome.org/appdata/gnome-49/org.gnome.Calculator/basic-mode.png</image>
+     </screenshot>
+     <screenshot>
+       <caption>Advanced Mode</caption>
+-      <image>https://static.gnome.org/appdata/gnome-49/calculator/advanced-mode.png</image>
++      <image>https://static.gnome.org/appdata/gnome-49/org.gnome.Calculator/advanced-mode.png</image>
+     </screenshot>
+     <screenshot>
+       <caption>Financial Mode</caption>
+-      <image>https://static.gnome.org/appdata/gnome-49/calculator/financial-mode.png</image>
++      <image>https://static.gnome.org/appdata/gnome-49/org.gnome.Calculator/financial-mode.png</image>
+     </screenshot>
+     <screenshot>
+       <caption>Programming Mode</caption>
+-      <image>https://static.gnome.org/appdata/gnome-49/calculator/programming-mode.png</image>
++      <image>https://static.gnome.org/appdata/gnome-49/org.gnome.Calculator/programming-mode.png</image>
+     </screenshot>
+     <screenshot>
+       <caption>Keyboard Mode</caption>
+-      <image>https://static.gnome.org/appdata/gnome-49/calculator/keyboard-mode.png</image>
++      <image>https://static.gnome.org/appdata/gnome-49/org.gnome.Calculator/keyboard-mode.png</image>
+     </screenshot>
+     <screenshot>
+       <caption>Conversion Mode</caption>
+-      <image>https://static.gnome.org/appdata/gnome-49/calculator/conversion-mode.png</image>
++      <image>https://static.gnome.org/appdata/gnome-49/org.gnome.Calculator/conversion-mode.png</image>
+     </screenshot>
+   </screenshots>
+   <update_contact>mcatanzaro_at_gnome.org</update_contact>
+-- 
+2.51.0
+

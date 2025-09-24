@@ -80,6 +80,10 @@
                         "type": "gnome",
                         "name": "gnome-calculator"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/0001-metainfo-Correct-uris-for-screenshots.patch"
                 }
             ]
         }
