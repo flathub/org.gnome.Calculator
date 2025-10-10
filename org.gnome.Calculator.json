@@ -74,8 +74,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-calculator/49/gnome-calculator-49.0.1.tar.xz",
-                    "sha256": "ecbe20e630575fb8bc23790d35f386ac1779003c40dc5c877d3cd2da0fc7453f",
+                    "url": "https://download.gnome.org/sources/gnome-calculator/49/gnome-calculator-49.1.tar.xz",
+                    "sha256": "5da02b87d913c3d72cb606afbbfb308479cde48dc4e1a1d54c049a1e86ca607e",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnome-calculator"
