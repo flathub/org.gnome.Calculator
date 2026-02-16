@@ -13,22 +13,12 @@
         "--metadata=X-DConf=migrate-path=/org/gnome/calculator/"
     ],
     "cleanup": [
-        "/include",
-        "/lib/pkgconfig",
-        "/share/pkgconfig",
-        "/share/aclocal",
-        "/man",
-        "/share/man",
-        "/share/gtk-doc",
-        "/share/vala",
-        "*.la",
-        "*.a",
         "/bin/gcalccmd",
-        "/lib/girepository-1.0",
+        "/include",
         "/share/info",
-        "/share/gtksourceview-5",
-        "/share/doc",
-        "/share/gir-1.0"
+        "/share/man",
+        "*.la",
+        "*.a"
     ],
     "modules": [
         {
