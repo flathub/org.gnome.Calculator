@@ -13,39 +13,14 @@
         "--metadata=X-DConf=migrate-path=/org/gnome/calculator/"
     ],
     "cleanup": [
-        "/include",
-        "/lib/pkgconfig",
-        "/share/pkgconfig",
-        "/share/aclocal",
-        "/man",
-        "/share/man",
-        "/share/gtk-doc",
-        "/share/vala",
-        "*.la",
-        "*.a",
         "/bin/gcalccmd",
-        "/lib/girepository-1.0",
+        "/include",
         "/share/info",
-        "/share/gtksourceview-5",
-        "/share/doc",
-        "/share/gir-1.0"
+        "/share/man",
+        "*.la",
+        "*.a"
     ],
     "modules": [
-        {
-            "name": "mpfr",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://www.mpfr.org/mpfr-4.2.2/mpfr-4.2.2.tar.xz",
-                    "sha256": "b67ba0383ef7e8a8563734e2e889ef5ec3c3b898a01d00fa0a6869ad81c6ce01",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 2019,
-                        "url-template": "https://www.mpfr.org/mpfr-$version/mpfr-$version.tar.xz"
-                    }
-                }
-            ]
-        },
         {
             "name": "mpc",
             "config-opts": [
