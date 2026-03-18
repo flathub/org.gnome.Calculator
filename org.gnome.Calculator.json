@@ -1,7 +1,7 @@
 {
     "id": "org.gnome.Calculator",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-calculator",
     "finish-args": [
@@ -49,8 +49,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-calculator/49/gnome-calculator-49.2.tar.xz",
-                    "sha256": "ddf4cd2edda135c41c8af68f9c0cdcd9d9a9163cb9f7f8e28ca2c8e81fd87657",
+                    "url": "https://download.gnome.org/sources/gnome-calculator/50/gnome-calculator-50.0.tar.xz",
+                    "sha256": "8053d6891565e882874b65c1db51c5bf310005eb788b8bac3546390743350a90",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnome-calculator"
