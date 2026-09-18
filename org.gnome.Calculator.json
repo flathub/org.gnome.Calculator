@@ -1,7 +1,7 @@
 {
     "id": "org.gnome.Calculator",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "50",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-calculator",
     "finish-args": [
@@ -23,18 +23,15 @@
     "modules": [
         {
             "name": "mpc",
-            "config-opts": [
-                "--with-mpfr=/app"
-            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnu.org/gnu/mpc/mpc-1.3.1.tar.gz",
-                    "sha256": "ab642492f5cf882b74aa0cb730cd410a81edcdbec895183ce930e706c1c759b8",
+                    "url": "https://ftp.gnu.org/gnu/mpc/mpc-1.4.1.tar.xz",
+                    "sha256": "91204cd32f164bd3b7c992d4a6a8ce6519511aadab30f78b6982d0bf8d73e931",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1667,
-                        "url-template": "https://ftp.gnu.org/gnu/mpc/mpc-$version.tar.gz"
+                        "url-template": "https://ftp.gnu.org/gnu/mpc/mpc-$version.tar.xz"
                     }
                 }
             ]
